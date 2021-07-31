@@ -4,5 +4,5 @@ import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0,"/var/www/vosem/")
 
-from vosem import app as application
+from vosem.app import app as application
 application.secret_key = 'Hellaur chiblee hellaur'
